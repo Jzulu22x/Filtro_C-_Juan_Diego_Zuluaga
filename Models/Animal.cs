@@ -56,9 +56,18 @@ public class Animal
         {
             Console.WriteLine("This animal is an adult.");
         }
-        
+
         Console.WriteLine("---------------------------");
 
     }
 
+    public string? GetName()
+    {
+        return Name;
+    }
+
+    public int GetId()
+    {
+        return Id;
+    }
 }
